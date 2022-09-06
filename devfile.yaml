@@ -1,0 +1,9 @@
+schemaVersion: 2.1.0
+metadata:
+    name: mydevfile
+components:
+  - name: go
+    container:
+      image: golang
+      memoryLimit: 512Mi
+      command: ['sleep', 'infinity']
