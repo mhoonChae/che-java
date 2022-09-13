@@ -17,15 +17,6 @@ components:
   - name: theia-ide
     container:
       image: quay.io/eclipse/che-theia@sha256:58c2aec8ad1370b078c53d153e29d766147852a341285c3e2c633b4423b9c1ee
-      env:
-        - name: THEIA_PLUGINS
-          value: local-dir:///plugins
-        - name: HOSTED_PLUGIN_HOSTNAME
-          value: 0.0.0.0
-        - name: HOSTED_PLUGIN_PORT
-          value: '3130'
-        - name: THEIA_HOST
-          value: 127.0.0.1
   - name: tools
     container:
       image: quay.io/eclipse/che-java11-maven:next
