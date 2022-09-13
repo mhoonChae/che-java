@@ -10,7 +10,7 @@ metadata:
   icon: https://raw.githubusercontent.com/devfile-samples/devfile-stack-icons/main/java-maven.jpg
 attributes:  
   .che/che-editor.yaml: |  
-     id: che-incubator/che-code/insiders
+     id: che-incubator/pycharm/latest
 starterProjects:
   - name: springbootproject
     git:
