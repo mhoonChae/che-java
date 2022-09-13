@@ -14,9 +14,6 @@ starterProjects:
       remotes:
         origin: 'https://github.com/odo-devfiles/springboot-ex.git'
 components:
-  - name: theia-ide
-    container:
-      image: quay.io/eclipse/che-theia@sha256:58c2aec8ad1370b078c53d153e29d766147852a341285c3e2c633b4423b9c1ee
   - name: tools
     container:
       image: quay.io/eclipse/che-java11-maven:next
