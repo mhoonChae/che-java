@@ -16,7 +16,7 @@ starterProjects:
 components:
   - name: theia-ide
     container:
-      image: 10.92.6.83:5000/haes:latest
+      image: 10.92.6.83:5000/che-theia:latest
       env:
         - name: THEIA_PLUGINS
           value: local-dir:///plugins
