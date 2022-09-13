@@ -16,7 +16,7 @@ starterProjects:
 components:
   - name: theia-ide
     container:
-      image: quay.io/eclipse/che-theia@sha256:502660ea465f2981b52ce8cfb531ae238037fa4acabcd45c35963509b0858fb7
+      image: quay.io/eclipse/che-theia@sha256:58c2aec8ad1370b078c53d153e29d766147852a341285c3e2c633b4423b9c1ee
       env:
         - name: THEIA_PLUGINS
           value: local-dir:///plugins
