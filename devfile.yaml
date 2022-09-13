@@ -13,8 +13,8 @@ components:
   - name: dev
     container:
       image: quay.io/devfile/universal-developer-image:ubi8-latest
-      memoryLimit: 7Gi
-      cpuLimit: 3500m
+      memoryLimit: 1Gi
+      cpuLimit: 1m
       endpoints:
         - exposure: public
           name: dev
@@ -23,4 +23,4 @@ components:
           targetPort: 8000
   - name: projects
     volume:
-      size: 3Gi
+      size: 1Gi
